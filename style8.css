@@ -1,0 +1,440 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f5f6f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Üst Bilgi Çubuğu */
+.top-bar {
+    background-color: #0b5e50;
+    color: #fff;
+    font-size: 0.85rem;
+    padding: 8px 0;
+}
+
+.top-bar-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.top-links a {
+    color: #fff;
+    margin-right: 15px;
+    opacity: 0.9;
+}
+
+.top-links a:hover {
+    opacity: 1;
+}
+
+.top-links i {
+    margin-right: 5px;
+}
+
+.top-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background-color: #0d6f5d;
+    padding: 2px 10px;
+    border-radius: 4px;
+}
+
+.search-box input {
+    background: transparent;
+    border: none;
+    color: #fff;
+    outline: none;
+    padding: 4px;
+    width: 120px;
+}
+
+.search-box input::placeholder {
+    color: #ddd;
+}
+
+.search-icon {
+    color: #fff;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.social-icons a {
+    color: #fff;
+    margin-left: 8px;
+    opacity: 0.8;
+}
+
+.language-select {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Ana Navigasyon */
+.main-header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.menu-icon {
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #555;
+}
+
+.logo-circle {
+    background-color: #16a085;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.logo-text h1 {
+    font-size: 1.2rem;
+    color: #0b5e50;
+    margin: 0;
+}
+
+.logo-text span {
+    font-size: 0.85rem;
+    color: #16a085;
+}
+
+.main-nav ul {
+    display: flex;
+    gap: 25px;
+}
+
+.main-nav a {
+    font-weight: 600;
+    color: #444;
+    font-size: 0.95rem;
+}
+
+.main-nav a:hover {
+    color: #16a085;
+}
+
+.main-nav i {
+    font-size: 0.7rem;
+    margin-left: 3px;
+}
+
+/* Ana İçerik */
+.main-content {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.content-container {
+    display: flex;
+    gap: 30px;
+}
+
+/* Sol İçerik */
+.left-content {
+    flex: 7;
+}
+
+.content-box {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.content-box h2 {
+    font-size: 2rem;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.meta {
+    font-size: 0.85rem;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.share-icons {
+    margin-bottom: 30px;
+}
+
+.share-icons a {
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+.survey-links li {
+    margin-bottom: 15px;
+}
+
+.survey-links a {
+    color: #3498db;
+    font-size: 1rem;
+}
+
+.survey-links a:hover {
+    text-decoration: underline;
+}
+
+.post-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+}
+
+.post-navigation a {
+    color: #777;
+    font-size: 0.9rem;
+}
+
+/* Sağ Kenar Çubuğu */
+.sidebar {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.widget {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.widget-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.widget-header h3 {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.see-all {
+    font-size: 0.8rem;
+    color: #16a085;
+}
+
+/* Duyurular Listesi */
+.announcement-list li {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-top: 6px;
+    flex-shrink: 0;
+}
+
+.dot.red { background-color: #e74c3c; }
+.dot.green { background-color: #2ecc71; }
+.dot.blue { background-color: #3498db; }
+.dot.teal { background-color: #1abc9c; }
+.dot.yellow { background-color: #f1c40f; }
+
+.announcement-list a {
+    display: block;
+    font-size: 0.9rem;
+    color: #444;
+    margin-bottom: 5px;
+    line-height: 1.4;
+}
+
+.date {
+    font-size: 0.75rem;
+    color: #999;
+}
+
+/* Haberler Listesi */
+.news-list li {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+    align-items: flex-start;
+}
+
+.news-list img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.news-list a {
+    display: block;
+    font-size: 0.9rem;
+    color: #444;
+    margin-bottom: 5px;
+    line-height: 1.4;
+    font-weight: 500;
+}
+
+/* Canlı Destek Butonu */
+.floating-support {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0b5e50;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    font-weight: bold;
+    z-index: 1000;
+}
+
+.floating-support i {
+    margin-right: 5px;
+}
+
+/* Footer */
+.main-footer {
+    background-color: #262626;
+    color: #ccc;
+    text-align: center;
+    padding: 40px 20px 20px;
+    margin-top: 50px;
+}
+
+.footer-links-top {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.footer-links-top a {
+    color: #ccc;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.footer-social {
+    margin-bottom: 20px;
+}
+
+.footer-social a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    background-color: #3b3b3b;
+    border-radius: 50%;
+    margin: 0 5px;
+    color: #ccc;
+    transition: 0.3s;
+}
+
+.footer-social a:hover {
+    background-color: #16a085;
+    color: white;
+}
+
+.footer-logo {
+    margin: 20px 0 10px;
+    color: white;
+}
+
+.footer-motto {
+    font-size: 0.85rem;
+    color: #999;
+    margin-bottom: 20px;
+}
+
+.footer-links-bottom {
+    margin-bottom: 30px;
+}
+
+.footer-links-bottom a {
+    color: #aaa;
+    font-size: 0.85rem;
+    margin: 0 10px;
+}
+
+.footer-copyright {
+    font-size: 0.75rem;
+    color: #666;
+    border-top: 1px solid #333;
+    padding-top: 15px;
+}
+
+.footer-logo-image {
+    height: 50px;
+    width: auto;  
+    max-width: 200px; }
+
+    @media (max-width: 992px) {
+    .content-container {
+        flex-direction: column;
+    }
+    .top-links, .social-icons, .main-nav ul {
+        display: none;
+    }
+    .top-right {
+        width: 100%;
+        justify-content: space-between;
+    }
+}
