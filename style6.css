@@ -91,7 +91,6 @@ ul {
     opacity: 0.8;
 }
 
-/* Navigasyon (Navbar) */
 .navbar {
     background-color: white;
     box-shadow: 0 2px 10px rgba(0,0,0,0.05);
@@ -160,7 +159,6 @@ ul {
     color: var(--text-gray);
 }
 
-/* Ana İçerik */
 .main-content {
     padding: 40px 0;
 }
@@ -194,7 +192,6 @@ p {
     color: #0066cc;
 }
 
-/* Blockquote - Liste Alanı */
 .quote-box {
     border-left: 4px solid var(--accent-teal);
     padding: 20px 20px 20px 40px;
@@ -221,7 +218,6 @@ p {
     margin-bottom: 10px;
 }
 
-/* Canlı Destek Butonu */
 .fab-btn {
     position: fixed;
     bottom: 30px;
@@ -238,7 +234,6 @@ p {
     z-index: 1000;
 }
 
-/* Footer Alanı */
 .footer {
     background-color: var(--footer-dark);
     color: white;
