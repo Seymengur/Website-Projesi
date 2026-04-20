@@ -1,4 +1,3 @@
-/* Genel Ayarlar */
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +16,6 @@ a {
     color: inherit;
 }
 
-/* En Üst Yeşil Bar */
 .top-bar {
     background-color: #006054;
     color: white;
@@ -72,7 +70,6 @@ a {
     opacity: 1;
 }
 
-/* Ana Başlık (Header) */
 .main-header {
     background-color: white;
     display: flex;
@@ -136,7 +133,6 @@ a {
     color: #888;
 }
 
-/* Breadcrumb */
 .breadcrumb {
     padding: 15px 5%;
     font-size: 13px;
@@ -147,7 +143,6 @@ a {
     color: #777;
 }
 
-/* Ana Konteyner */
 .container {
     display: flex;
     max-width: 1300px;
@@ -156,7 +151,6 @@ a {
     gap: 30px;
 }
 
-/* Sol Sütun (İçerik) */
 .content {
     flex: 7;
     background-color: white;
@@ -227,7 +221,6 @@ a {
     font-weight: 500;
 }
 
-/* Sağ Sütun (Sidebar) */
 .sidebar {
     flex: 3;
     display: flex;
@@ -301,7 +294,6 @@ a {
     color: #999;
 }
 
-/* Canlı Destek Butonu */
 .live-support {
     display: flex;
     justify-content: flex-end;
@@ -326,7 +318,6 @@ a {
     border-radius: 50%;
 }
 
-/* Haberler Listesi */
 .news-list {
     list-style: none;
 }
@@ -345,7 +336,7 @@ a {
 }
 
 .bg-gray {
-    background-color: #ccc; /* Resim yerine gri kutu */
+    background-color: #ccc;
 }
 
 .news-content p {
@@ -356,7 +347,6 @@ a {
     line-height: 1.3;
 }
 
-/* Footer */
 .site-footer {
     background-color: #1a1a1a;
     color: #ccc;
