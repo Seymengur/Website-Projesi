@@ -1,4 +1,3 @@
-/* --- Global Ayarlar & Değişkenler --- */
 :root {
     --primary-color: #12908e;
     --primary-dark: #0e7371;
@@ -34,7 +33,6 @@ a {
     color: inherit;
 }
 
-/* --- Üst Bilgi Çubuğu (Top Bar) --- */
 .top-bar {
     background-color: var(--topbar-bg);
     color: var(--white);
@@ -88,7 +86,6 @@ a {
     cursor: pointer;
 }
 
-/* --- Ana Navigasyon --- */
 .main-nav {
     background-color: var(--white);
     box-shadow: 0 2px 10px rgba(0,0,0,0.05);
@@ -160,7 +157,6 @@ a {
     margin-left: 3px;
 }
 
-/* --- Hero Alanı --- */
 .hero {
     background: linear-gradient(135deg, #15a29f 0%, #0c7b78 100%);
     height: 400px;
@@ -226,7 +222,6 @@ a {
     font-weight: 600;
 }
 
-/* --- Hızlı Erişim Butonları --- */
 .quick-links-section {
     background: var(--white);
     padding: 30px 0;
@@ -269,7 +264,6 @@ a {
     color: var(--text-gray);
 }
 
-/* --- Ortak Başlıklar --- */
 .section-header {
     display: flex;
     justify-content: space-between;
@@ -295,7 +289,6 @@ a {
     font-weight: 600;
 }
 
-/* --- Ana İçerik Grid (Duyurular & Haberler) --- */
 .main-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -304,7 +297,6 @@ a {
     margin-bottom: 40px;
 }
 
-/* Duyurular */
 .announcements .card-list {
     background: var(--white);
     border-radius: 10px;
@@ -355,14 +347,13 @@ a {
 .content-wrapper {
     display: flex;
     justify-content: space-between;
-    gap: 30px; /* İki kutu arasındaki boşluk */
+    gap: 30px; 
     width: 100%;
-    max-width: 1200px; /* Sayfa genişliğine göre ayarlanabilir */
+    max-width: 1200px; 
     margin: 0 auto;
-    align-items: flex-start; /* İçerikler farklı uzunluktaysa kutuları bozmaz */
+    align-items: flex-start; 
 }
 
-/* Haberler */
 .news .card-list {
     background: var(--white);
     border-radius: 10px;
@@ -388,7 +379,7 @@ a {
 
 .news-content {
     flex: 1;
-    padding-right: 40px; /* ikon için yer */
+    padding-right: 40px;
 }
 
 .news-date {
@@ -426,7 +417,6 @@ a {
     font-size: 14px;
 }
 
-/* --- Etkinlik, Staj Kartları --- */
 .events-section {
     margin-bottom: 50px;
 }
@@ -513,7 +503,6 @@ a {
     cursor: pointer;
 }
 
-/* --- İletişim Kartları --- */
 .contact-info-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -555,7 +544,6 @@ a {
     line-height: 1.4;
 }
 
-/* --- Footer --- */
 footer {
     background-color: var(--footer-bg);
     color: white;
