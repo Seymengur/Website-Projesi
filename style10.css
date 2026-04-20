@@ -1,4 +1,3 @@
-/* Genel Ayarlar */
 * {
     margin: 0;
     padding: 0;
@@ -26,7 +25,6 @@ ul {
     padding: 0 15px;
 }
 
-/* En Üst Yeşil Bar */
 .top-bar {
     background-color: #008880;
     color: white;
@@ -92,7 +90,6 @@ ul {
     font-weight: bold;
 }
 
-/* Ana Header */
 .main-header {
     background-color: white;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
@@ -163,7 +160,6 @@ ul {
     margin-left: 3px;
 }
 
-/* Ana İçerik ve Grid Yapısı */
 .main-layout {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -171,7 +167,6 @@ ul {
     padding: 40px 15px;
 }
 
-/* Sol İçerik */
 .page-title {
     font-size: 24px;
     color: #333;
@@ -251,7 +246,6 @@ ul {
     color: #008880;
 }
 
-/* Sağ Kenar Çubuğu (Sidebar) */
 .widget {
     background-color: white;
     border: 1px solid #eee;
@@ -318,7 +312,6 @@ ul {
     color: #999;
 }
 
-/* Haberler */
 .news-list li {
     display: flex;
     align-items: center;
@@ -333,7 +326,6 @@ ul {
     border-radius: 4px;
 }
 
-/* Canlı Destek */
 .live-support-btn {
     position: fixed;
     bottom: 30px;
@@ -354,7 +346,6 @@ ul {
     background-color: #006b64;
 }
 
-/* Footer */
 footer {
     background-color: #1c1f22;
     color: #aaa;
@@ -436,7 +427,6 @@ footer {
     width: auto;  
     max-width: 200px; }
 
-/* Responsive Uyumluluk */
 @media (max-width: 900px) {
     .main-layout {
         grid-template-columns: 1fr;
